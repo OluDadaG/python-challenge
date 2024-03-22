@@ -41,4 +41,4 @@ Source code:
 I levarage the Xpert Learning Assistant to understand some errors and took an idea regarding how to fix them.
 I also consulted my tutors during tutorial and office hours to help with some of my election result analysis.
 
-Location:
+Location: Calculating Percentage votes and Winner
