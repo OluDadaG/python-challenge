@@ -19,7 +19,7 @@ Average_Profit_Change = []
 Greatest_Increase_in_Profits = []
 Greatest_decrease_in_Profits = []
 
-# MeTo read my csv I will use method 2: Improved Reading using csv 
+# To read my csv I will use method 2: Improved Reading using csv 
 with open(Path_for_budget_data) as csvfile:
     # CSV reader specifies delimiter and variable that holds contents
     csvreader = csv.reader(csvfile, delimiter=',')
@@ -75,4 +75,4 @@ with open(output_file_path, 'w') as output_file:
     output_file.write(f"Avrage Change: ${Average_Profit_Change: .2f}\n")
     output_file.write(f"Greatest Increase in Profits: {Month_Greatest_Increase_in_Profits} (${Greatest_Increase_in_Profits})\n")
     output_file.write(f"Greatest Decrease in Profits: {Month_Greatest_decrease_in_Profits} (${Greatest_decrease_in_Profits})\n")
-    
+
